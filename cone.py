@@ -4,7 +4,7 @@
 from math import pi
 from math import hypot
 
-def get_cone_volume (radius,height):
+def get_volume (radius,height):
     volume = (pi * radius ** 2 * height) / 3
     return volume
 
